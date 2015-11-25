@@ -1,0 +1,15 @@
+staging:
+  db:
+    name: 'db_staging_s_videos'
+    user: 's_videos_staging'
+    password: 's_videos_pwd'
+    host: '10.0.1.142'
+    port: 3306
+
+production:
+  db:
+    name: 'db_prod_s_videos'
+    user: 's_videos_prod'
+    password: 's_videos_prod_pwd'
+    host: 'localhost'
+    port: 3306
